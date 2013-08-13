@@ -95,8 +95,8 @@ while trial != 12:      ## Siin defineerid trialite arvu
                 screen.clear()
                 stimulate_viewp.draw()
                 swap_buffers()
-                setBit(lpt, 0, 1)
                 channel = music.play()
+                setBit(lpt, 0, 1)
                 setBit(lpt, 0, 0)
                 time.sleep(leng)
                 
