@@ -49,7 +49,7 @@ if TMSSHAM == 'SHAM':
         leng = 30.0
 elif TMSSHAM == 'TMS':
         music = tms
-        leng = 30.0
+        leng = 29.0
 
 ## Instructions
 start_viewp = Viewport(screen=screen, stimuli=[text1])
